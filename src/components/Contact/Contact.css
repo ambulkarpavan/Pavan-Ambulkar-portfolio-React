@@ -1,0 +1,11 @@
+.contact {
+  flex-direction: column;
+}
+
+.contact p{
+  margin-bottom: 2rem;
+}
+
+.link link--icon_linkdin{
+  width: 100px;
+}
