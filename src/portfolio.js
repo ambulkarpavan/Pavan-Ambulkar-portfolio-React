@@ -18,7 +18,7 @@ const about = {
     "Passionate about coding and eager to learn newthings. Having knowledge of MERN Stack, HTML, CSS,JavaScript, Data structure and Algorithms and ready to code with it." ,
     description2:
     "Looking Forward to join an organization where I will be able to exhibit my skills with utmost sincerity and hardwork for the growth of your esteemed organization along with mine",
-  resume: 'https://drive.google.com/file/d/1KKvs9M0ctlvf2v0aDojFFVLsyBnOp7B7/view?usp=sharing',
+  resume: 'https://drive.google.com/file/d/1qm2VIPI7rmHT-JS1asFPj2WiXqqcdMQW/view?usp=sharing',
   social: {
     linkedin: 'https://www.linkedin.com/in/pavanambulkar/',
     github: 'https://github.com/ambulkarpavan',
@@ -53,7 +53,7 @@ const projects = [
       'This is a clone of Nykaa.com an ecommerce beauty related website. It was a group project. I worked on Home page, payment details page, Login and Signup page.',
     stack: ['localstorage', 'HTML', 'CSS','Javascript', 'Github'],
     sourceCode: 'https://github.com/faisal1205/Nykaa-Clone-Project',
-    livePreview: 'https://visionary-fairy-b107b1.netlify.app/',
+    livePreview: 'https://nykaa-clone-ecommerce.netlify.app/',
   },
  
 ]
