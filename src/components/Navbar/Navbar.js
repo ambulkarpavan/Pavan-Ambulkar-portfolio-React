@@ -4,7 +4,7 @@ import WbSunnyRoundedIcon from '@material-ui/icons/WbSunnyRounded'
 import MenuIcon from '@material-ui/icons/Menu'
 import CloseIcon from '@material-ui/icons/Close'
 import { ThemeContext } from '../../contexts/theme'
-import { about, projects, skills1, contact } from '../../portfolio'
+import { about, projects, skills1, contact} from '../../portfolio'
 import './Navbar.css'
 
 const Navbar = () => {
@@ -19,7 +19,8 @@ const Navbar = () => {
         style={{ display: showNavList ? 'flex' : null }}
         className='nav__list'
       >
-        {about.name ? (
+      
+      {about.name ? (
           <li className='nav__list-item'>
             <a
               href='#about'
@@ -54,6 +55,17 @@ const Navbar = () => {
             </a>
           </li>
         ) : null}
+
+<li className='nav__list-item'>
+            <a
+              target="_blank" rel="noopener noreferrer"
+              href='https://drive.google.com/file/d/1pEhJGbk8y4AR-K2qI5qWPPO_BICRBd1S/view?usp=sharing'
+              onClick={toggleNavList}
+              className='link link--nav'
+            >
+              Resume
+            </a>
+          </li>
 
         {contact.email ? (
           <li className='nav__list-item'>

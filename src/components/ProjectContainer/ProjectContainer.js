@@ -6,7 +6,7 @@ import './ProjectContainer.css'
 const ProjectContainer = ({ project }) => (
   <div className='project'>
     <h3>{project.name}</h3>
-    <div style={{marginTop:"2rem", height:"30%"}}>
+    <div style={{marginTop:"2rem", height:"35%"}}>
       <img src={project.image} alt="" width="100%" height="100%" />
     </div>
 

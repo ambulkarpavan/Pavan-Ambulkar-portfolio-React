@@ -15,10 +15,12 @@ const about = {
   name: 'PAVAN AMBULKAR',
   role: 'Full stack Web developer',
   description1:
-    "Passionate about coding and eager to learn newthings. Having knowledge of MERN Stack, HTML, CSS,JavaScript, Data structure and Algorithms and ready to code with it." ,
+  "A hard-working and self-motivated Full Stack Web Developer with proficiency in MERN Stack, Data structure, and Algorithms. Problem-solving mindset and ability to perform well in collaboration.",
+    // "Passionate about coding and eager to learn newthings. Having knowledge of MERN Stack, HTML, CSS,JavaScript, Data structure and Algorithms and ready to code with it." ,
     description2:
-    "Looking Forward to join an organization where I will be able to exhibit my skills with utmost sincerity and hardwork for the growth of your esteemed organization along with mine",
-  resume: 'https://drive.google.com/file/d/1qm2VIPI7rmHT-JS1asFPj2WiXqqcdMQW/view?usp=sharing',
+    "Looking forward to working as an accountable and competent employee in an exciting tech company.",
+    // "Looking Forward to join an organization where I will be able to exhibit my skills with utmost sincerity and hardwork for the growth of your esteemed organization along with mine.",
+  resume: 'https://drive.google.com/file/d/1pEhJGbk8y4AR-K2qI5qWPPO_BICRBd1S/view?usp=sharing',
   social: {
     linkedin: 'https://www.linkedin.com/in/pavanambulkar/',
     github: 'https://github.com/ambulkarpavan',
@@ -33,7 +35,7 @@ const projects = [
     image:calendlypic,
     description:
       'This is a clone of Calendly.com it arrange and scheduel meetings for users. It was a group project. I worked on design, individual page, and Event Creation page.',
-    stack: ["React", "Redux",'HTML', 'CSS','Javascript', "JSON", 'Github'],
+    stack: ["React", "Redux",'HTML', 'CSS','Javascript', "JSON", 'GitHub'],
     sourceCode: 'https://github.com/akashbhoi2815/parallel-cast-7381',
     livePreview: 'https://calendl-yparallel-cast-7381.vercel.app/',
   },
@@ -42,7 +44,7 @@ const projects = [
     image:expediapic,
     description:
       'This is a clone of Expedia.com an travel related website. It was a group project. I worked on Home page, Login and Signup page.',
-    stack: ['localstorage', 'HTML', 'CSS','Javascript', 'API', 'Github'],
+    stack: ['localstorage', 'HTML', 'CSS','Javascript', 'API', 'GitHub'],
     sourceCode: 'https://github.com/vishnu9651/Expedia-clone',
     livePreview: 'https://expedia-travels-clone.netlify.app/',
   },
@@ -51,10 +53,11 @@ const projects = [
     image:nykaapic,
     description: 
       'This is a clone of Nykaa.com an ecommerce beauty related website. It was a group project. I worked on Home page, payment details page, Login and Signup page.',
-    stack: ['localstorage', 'HTML', 'CSS','Javascript', 'Github'],
+    stack: ['localstorage', 'HTML', 'CSS','Javascript', 'GitHub'],
     sourceCode: 'https://github.com/faisal1205/Nykaa-Clone-Project',
     livePreview: 'https://nykaa-clone-ecommerce.netlify.app/',
   },
+  
  
 ]
 
@@ -85,9 +88,10 @@ const skills2 = [
   'MongoDB',
   'JSON',
   // 'Material UI',
-  'Git',
+  'GitHub',
   // 'MERN',
 ]
+
 
 const contact = {
   // email is optional - if left empty Contact section won't show up

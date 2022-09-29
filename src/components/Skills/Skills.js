@@ -1,5 +1,6 @@
 import uniqid from 'uniqid'
 import { skills1, skills2 } from '../../portfolio'
+import Github from '../GithubStat/Github'
 import './Skills.css'
 
 const Skills = () => {
@@ -7,6 +8,8 @@ const Skills = () => {
   if (!skills2.length) return null
 
   return (
+   <div>
+    <div>
     <section className='section skills' id='skills'>
       <h2 className='section__title'>Skills</h2>
       <div style={{display:"flex", justifyContent:"space-evenly", textAlign:"center"}}>
@@ -32,6 +35,11 @@ const Skills = () => {
       </div>
       </div>
     </section>
+    </div>
+    <div>
+      <Github/>
+    </div>
+   </div>
   )
 }
 
