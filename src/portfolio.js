@@ -2,6 +2,7 @@ import aboutpic from "./components/Access/pavanPhoto.jpg"
 import expediapic from "./components/Access/expedia.png"
 import nykaapic from "./components/Access/Nykaa.png"
 import calendlypic from "./components/Access/Calendly.jpg"
+import myhourspic from "./components/Access/Myhours.png"
 
 const header = {
   // all the properties are optional - can be left empty or deleted
@@ -39,6 +40,16 @@ const projects = [
     sourceCode: 'https://github.com/akashbhoi2815/parallel-cast-7381',
     livePreview: 'https://calendl-yparallel-cast-7381.vercel.app/',
   },
+  {
+    name: 'Clone of Myhours.com',
+    image:myhourspic,
+    description:
+      'This is a clone of Myhours.com it manage projects, tasks, clients, teams for users. It was a group project. I worked on Backend for login signup, CRUD opertaion,and frontend for Support page, Footer section.',
+    stack: ["React", "Redux", 'NodeJS', "Express", "MongoDB",'HTML', 'CSS','Javascript', 'GitHub'],
+    sourceCode: 'https://github.com/Hisam-94/bouncy-donkey-4696',
+    livePreview: 'https://myhours01.netlify.app/',
+  },
+ 
   {
     name: 'Clone of Expedia.com',
     image:expediapic,
