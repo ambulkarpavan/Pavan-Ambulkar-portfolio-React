@@ -6,7 +6,7 @@ function Github() {
   return (
     <div>
         <div style={{marginTop:"50px", marginBottom:"50px"}}>
-                <h2 style={{textAlign:"center" , marginBottom:"50px"}} >My Advantages</h2>
+                <h3 style={{textAlign:"center" , marginBottom:"50px"}} >My Advantages</h3>
                 {/* <div><p>1200+ <span style={{fontSize:"18px"}}> Hrs <br/> Coding</span></p></div> */}
     <div className="advantage">
       <div><p>1200+ <span style={{fontSize:"18px"}}> Hrs <br/> Coding</span></p></div>
@@ -16,7 +16,7 @@ function Github() {
     </div>
         </div>
         <div>
-        <h2 style={{textAlign:"center", marginBottom:"50px"}} >My GitHub Contribution</h2>
+        <h3 style={{textAlign:"center", marginBottom:"50px"}} > GitHub Contribution</h3>
         <Row style={{ justifyContent: "center", padding: "10px",color:"wheat" , backgroundColor:"#23283e" }}>
       {/* <h1 className="project-heading" style={{ paddingBottom: "20px" }}>
         Days I <strong className="purple">Code</strong>

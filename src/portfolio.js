@@ -14,9 +14,9 @@ const about = {
   photo:aboutpic,
   // all the properties are optional - can be left empty or deleted
   name: 'PAVAN AMBULKAR',
-  role: 'Full stack Web developer',
+  role: 'Full Stack Web Developer',
   description1:
-  "A hard-working and self-motivated Full Stack Web Developer with proficiency in MERN Stack, Data structure, and Algorithms. Problem-solving mindset and ability to perform well in collaboration.",
+  "A hard-working and self-motivated full stack web developer with proficiency in MERN stack, data structure, and algorithms. Problem-solving mindset and ability to perform well in collaboration.",
     // "Passionate about coding and eager to learn newthings. Having knowledge of MERN Stack, HTML, CSS,JavaScript, Data structure and Algorithms and ready to code with it." ,
     description2:
     "Looking forward to working as an accountable and competent employee in an exciting tech company.",
@@ -32,23 +32,24 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'Clone of Calendly.com',
-    image:calendlypic,
-    description:
-      'This is a clone of Calendly.com it arrange and scheduel meetings for users. It was a group project. I worked on design, individual page, and Event Creation page.',
-    stack: ["React", "Redux",'HTML', 'CSS','Javascript', "JSON", 'GitHub'],
-    sourceCode: 'https://github.com/akashbhoi2815/parallel-cast-7381',
-    livePreview: 'https://calendl-yparallel-cast-7381.vercel.app/',
-  },
-  {
     name: 'Clone of Myhours.com',
     image:myhourspic,
     description:
-      'This is a clone of Myhours.com it manage projects, tasks, clients, teams for users. It was a group project. I worked on Backend for login signup, CRUD opertaion,and frontend for Support page, Footer section.',
+      'This is a clone of Myhours.com it manage projects, tasks, clients, teams for users. It was a group project. I worked on Backend for login signup, CRUD opertaion,and on frontend of support page, footer section.',
     stack: ["React", "Redux", 'NodeJS', "Express", "MongoDB",'HTML', 'CSS','Javascript', 'GitHub'],
     sourceCode: 'https://github.com/Hisam-94/bouncy-donkey-4696',
     livePreview: 'https://myhours01.netlify.app/',
   },
+  {
+    name: 'Clone of Calendly.com',
+    image:calendlypic,
+    description:
+      'This is a clone of Calendly.com it arranges and schedule meetings for users. It was a group project. I worked on the design, individual page, and event creation page.',
+    stack: ["React", "Redux",'HTML', 'CSS','Javascript', "JSON", 'GitHub'],
+    sourceCode: 'https://github.com/akashbhoi2815/parallel-cast-7381',
+    livePreview: 'https://calendl-yparallel-cast-7381.vercel.app/',
+  },
+  
  
   {
     name: 'Clone of Expedia.com',
